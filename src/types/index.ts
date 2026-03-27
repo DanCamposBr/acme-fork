@@ -28,7 +28,7 @@ export interface FindAllCustomersParams {
   order?: SortOrder;
 };
 
-export type InvoiceStatus = 'PEDENTE' | 'PAGO';
+export type InvoiceStatus = 'PENDENTE' | 'PAGO';
 
 export interface Invoice {
   id: string;
