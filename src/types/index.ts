@@ -80,3 +80,20 @@ export interface ApiError {
   error: string;
   details?: Record<string, string[]>;
 };
+
+export interface FindAllCustomersParams {
+  search?: string;
+  page?: number;
+  limit?: number;
+  sortBy?: string;
+  order?: SortOrder;
+};
+
+export interface PaginationMeta {
+  total: number;
+  page: number;
+  limit: number;
+  totalPages: number;
+  hasMore: boolean;
+};
+
