@@ -57,6 +57,13 @@ export interface FindAllInvoiceParams {
   dateTo?: string;
 };
 
+export interface InvoiceStatus {
+  totalPendente: number;
+  totalPago: number;
+  countPendente: number;
+  countTotal: number;
+};
+
 export interface Revenue {
   month: string;
   revenue: number;
