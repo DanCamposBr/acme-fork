@@ -57,7 +57,7 @@ export interface FindAllInvoiceParams {
   dateTo?: string;
 };
 
-export interface InvoiceStatus {
+export interface InvoiceStats {
   totalPendente: number;
   totalPago: number;
   countPendente: number;
