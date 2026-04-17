@@ -62,6 +62,7 @@ export interface InvoiceStats {
   totalPago: number;
   countPendente: number;
   countTotal: number;
+  countPago: number;
 };
 
 export interface Revenue {
